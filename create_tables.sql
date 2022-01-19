@@ -14,15 +14,13 @@ USE poke_corp;
 --     p_height INT(10),
 --     p_weight INT(10),
 --     p_type_id INT,
---     owned_by_id INT,
 
---     FOREIGN KEY(p_type_id) REFERENCES pokemon_type(t_id),
---     FOREIGN KEY(owned_by_id) REFERENCES trainer(tr_id)
+--     FOREIGN KEY(p_type_id) REFERENCES pokemon_type(t_id)
 -- );
 
 -- CREATE TABLE Pokemon_Type (
 --     t_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
---     TYPE VARCHAR(30)
+--     type VARCHAR(30)
 -- );
 
 -- CREATE TABLE Trainer (
